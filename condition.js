@@ -346,16 +346,16 @@
 
 //! Generera två slumpmässiga tal mellan 1 och 10. Be användaren att multiplicera dessa två tal och ange svaret. Kontrollera om svaret är korrekt och skriv ut ett passande meddelande.
 
-const num1 = Math.floor(Math.random() * 10) + 1;
-const num2 = Math.floor(Math.random() * 10) + 1;
+// const num1 = Math.floor(Math.random() * 10) + 1;
+// const num2 = Math.floor(Math.random() * 10) + 1;
 
-let product = Number(prompt(`Vad är produkten av ${num1} och ${num2}: `));
+// let product = Number(prompt(`Vad är produkten av ${num1} och ${num2}: `));
 
-if (product === num1 * num2) {
-  alert("Snyggt räknat du är värsta matte snillet va");
-} else {
-  alert("Du är inte ett matte snille, bäst gå tillbaka till plugget va");
-}
+// if (product === num1 * num2) {
+//   alert("Snyggt räknat du är värsta matte snillet va");
+// } else {
+//   alert("Du är inte ett matte snille, bäst gå tillbaka till plugget va");
+// }
 
 // Övning: BMI-kalkylator (Medel)
 
